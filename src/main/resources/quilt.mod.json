@@ -1,20 +1,20 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.thepoultryman",
+		"id": "mod_name",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
 			"description": "A short description of your mod.",
 			"contributors": {
-				"Me!": "Owner"
+				"Me!": "ThePoultryMan"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/modid/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.thepoultryman.modid.ModClass"
 		},
 		"depends": [
 			{
@@ -31,5 +31,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "modid.mixins.json"
 }
